@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Information</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random Dog Image</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <h1>Book Information</h1>
-        <button id="fetchData">Fetch Data</button>
-        <div class="book-info"></div>
-    </div>
 
+<body>
+    <div class="container text-center mt-5">
+        <h1>Random Dog Image</h1>
+        <div class="image-container mt-4">
+            <img src="" alt="Random Dog Image" id="dog-image" class="img-fluid">
+        </div>
+        <button id="fetch-button" class="btn btn-primary mt-4">Fetch Random Dog Image</button>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
